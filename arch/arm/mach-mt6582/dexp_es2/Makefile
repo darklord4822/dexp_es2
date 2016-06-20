@@ -8,8 +8,8 @@ ifeq ($(CONFIG_MTK_CM36283),y)
 obj-y	+=  alsps/cm36283/
 endif
 
-ifeq ($(CONFIG_MTK_BMA050_NEW),y)
-obj-y   +=  accelerometer/bma050-new/
+ifeq ($(CONFIG_MTK_KXTIK1004),y)
+obj-y   +=  accelerometer/kxtik1004/
 endif
 
 ifeq ($(CONFIG_MTK_MPU3000),y)
